@@ -33,7 +33,7 @@ resource "aws_iam_role_policy_attachment" "lambda_secrets" {
 }
 
 resource "aws_secretsmanager_secret" "slack_webhook" {
-  name        = "slack-webhook"
+  name        = "slack-webhook_two"
   description = "Slack Incoming Webhook URL"
 }
 
